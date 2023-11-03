@@ -1,0 +1,26 @@
+.our-courses {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.our-courses__title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-courses__title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -.02em;
+}
+
+.our-courses__title-accent {
+    color: #BEA69E;
+}
+
+.our-courses__text {
+    font-size: 14px;
+    line-height: 1.29;
+}
