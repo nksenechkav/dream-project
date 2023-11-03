@@ -20,6 +20,76 @@
   font-weight: 400;
 }
 
+.hero-text {
+  width: 295px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.hero-students-reviews {
+  height: 84px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.hero-list {
+  display: inline-flex;
+  width: 109px;
+  height: 44px;
+}
+.hero-item {
+}
+.hero-card {
+}
+.hero-review-link {
+  display: block;
+  width: 67px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+.hero-arrow-icon {
+  fill: #fff;
+  width: 18px;
+  height: 8.66px;
+}
+.hero-reviews {
+  display: flex;
+  width: 104px;
+  align-items: center;
+  gap: 12px;
+}
+.hero-reviews-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  background: #bea69e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-star-icon {
+  fill: #121212;
+}
+.hero-review-text {
+  /* width: 57px; */
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+.hero-review-count {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.hero-main-card {
+}
 @media screen and (min-width: 768px) {
   .hero-section {
     width: 704px;
@@ -34,6 +104,31 @@
 
   .hero-title-span {
     font-size: 60px;
+  }
+
+  .hero-text {
+    width: 418px;
+  }
+
+  .hero-review-link {
+    width: 82px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-reviews-item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-review-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-review-count {
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
@@ -52,8 +147,21 @@
   .hero-title-span {
     font-size: 64px;
   }
-}
 
+  .hero-text {
+  }
+
+  .hero-review-link {
+  }
+}
+.hero {
+}
+.hero-section {
+}
+.hero-title {
+}
+.hero-title-span {
+}
 .hero-text {
 }
 .hero-students-reviews {
@@ -64,7 +172,7 @@
 }
 .hero-card {
 }
-.hero-arrow {
+.hero-arrow-icon {
 }
 .hero-reviews {
 }
