@@ -1,0 +1,70 @@
+@media screen and (min-width: 375px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: 2px solid tomato;
+  }
+  .header-menu {
+    display: none;
+  }
+  .header-bigscreen-btn {
+    display: none;
+  }
+  .header-logo-icon {
+    fill: #ffffff;
+    width: 127px;
+    height: 20px;
+  }
+  .header-btn-camera {
+    display: flex;
+    background-color: #1d1d1d;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-btn-camera-icon {
+    fill: rgba(190, 166, 158, 0.4);
+  }
+  .header-open-btn {
+    display: flex;
+    background-color: #121212;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .mob-btn-icon {
+    stroke: #121212;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 14px;
+  }
+  .header-buttons {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-mob-menu {
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: auto;
+  }
+}
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
