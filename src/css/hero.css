@@ -20,6 +20,35 @@
   font-weight: 400;
 }
 
+.hero-text {
+}
+.hero-students-reviews {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-card {
+}
+.hero-arrow {
+}
+.hero-reviews {
+}
+
+.hero-item-star {
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  background-color: #bea69e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-icon-star {
+  fill: #121212;
+}
+.hero-main-card {
+}
 @media screen and (min-width: 768px) {
   .hero-section {
     width: 704px;
@@ -52,23 +81,4 @@
   .hero-title-span {
     font-size: 64px;
   }
-}
-
-.hero-text {
-}
-.hero-students-reviews {
-}
-.hero-list {
-}
-.hero-item {
-}
-.hero-card {
-}
-.hero-arrow {
-}
-.hero-reviews {
-}
-.hero-star {
-}
-.hero-main-card {
 }
