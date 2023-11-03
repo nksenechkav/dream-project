@@ -102,8 +102,8 @@
     letter-spacing: -0.02em;
 }
 
-ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+@media screen and (min-width: 375px) {
+    .our-courses__text {
+        max-width: 335px;
+    }
 }
