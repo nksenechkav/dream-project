@@ -26,9 +26,11 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
 .hero-students-reviews {
-  height: 84px;
+  /* height: 84px; */
+  width: 253px;
   display: inline-flex;
   justify-content: center;
   align-items: flex-start;
@@ -110,6 +112,10 @@
     width: 418px;
   }
 
+  .hero-students-reviews {
+    width: 390px;
+  }
+
   .hero-review-link {
     width: 82px;
     font-size: 16px;
@@ -149,34 +155,13 @@
   }
 
   .hero-text {
+    margin-bottom: 136px;
   }
 
   .hero-review-link {
   }
-}
-.hero {
-}
-.hero-section {
-}
-.hero-title {
-}
-.hero-title-span {
-}
-.hero-text {
-}
-.hero-students-reviews {
-}
-.hero-list {
-}
-.hero-item {
-}
-.hero-card {
-}
-.hero-arrow-icon {
-}
-.hero-reviews {
-}
-.hero-star {
-}
-.hero-main-card {
+
+  .hero-students-reviews {
+    width: 388px;
+  }
 }
