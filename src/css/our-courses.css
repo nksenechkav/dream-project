@@ -64,22 +64,26 @@
     padding: 6px;
     box-sizing: border-box;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-courses__card-upper-link-icon {
     fill: transparent;
     stroke: #777;
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-courses__card-upper-link:hover,
 .our-courses__card-upper-link:focus {
     background-color: #BEA69E;
+    transform: scale(1.25);
 }
 
 .our-courses__card-upper-link:hover .our-courses__card-upper-link-icon,
 .our-courses__card-upper-link:focus .our-courses__card-upper-link-icon {
     stroke: white;
+    transform: rotate(90deg);
 }
 
 .our-courses__card-text {
