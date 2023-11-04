@@ -5,6 +5,7 @@
 
 .our-courses__title-box {
     display: flex;
+    max-width: 335px;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 40px;
@@ -93,6 +94,7 @@
     font-size: 28px;
     line-height: 1.14;
     font-weight: normal;
+    max-width: 150px;
 }
 
 .our-courses__card-text-subtitle {
@@ -102,8 +104,18 @@
     letter-spacing: -0.02em;
 }
 
-@media screen and (min-width: 375px) {
-    .our-courses__text {
-        max-width: 335px;
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
