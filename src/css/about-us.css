@@ -30,7 +30,6 @@
 .abtus-img {
   display: block;
   width: 100%;
-  object-fit: cover;
 }
 .sec-abtus-cont-ul {
   display: flex;
@@ -60,6 +59,7 @@
     width: 704px;
   }
   .abtus-img {
+    border-radius: 1000px;
     max-width: 100%;
   }
   .abus-title {
@@ -92,9 +92,6 @@
     width: 280px;
   }
 
-  .abtus-img {
-    border-radius: 1000px;
-  }
   .sec-abtus-txt {
     color: var(--white, #fff);
     font-family: DM Sans;
@@ -128,6 +125,24 @@
     border-radius: 1000px;
     width: 100%;
     display: block;
+  }
+  .abus-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+  }
+  .abus-span {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
   }
   .sec-abtus-txt {
     color: var(--white, #fff);
