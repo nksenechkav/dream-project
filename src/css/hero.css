@@ -2,9 +2,7 @@
   border-radius: 30px;
   padding-top: 40px;
   padding-bottom: 80px;
-  /* background-color: #1d1d1d;
-  width: 335px;
-  height: 777px; */
+  /* background-color: #1d1d1d; */
 }
 
 .hero-title {
@@ -14,6 +12,7 @@
   line-height: 1.1;
   letter-spacing: -0.04em;
   max-width: 295px;
+  margin-bottom: 20px;
 }
 
 .hero-title-span {
@@ -32,14 +31,14 @@
 }
 
 .hero-students-reviews {
-  max-width: 253px;
+  width: 253px;
   display: inline-flex;
-  /* justify-content: center; */
   align-items: flex-start;
   gap: 40px;
+  margin-bottom: 31px;
 }
 
-.hero-student {
+.hero-students {
   display: inline-block;
   flex-direction: column;
   gap: 4px;
@@ -49,6 +48,9 @@
   display: inline-flex;
   width: 109px;
   height: 44px;
+}
+
+.hero-item {
 }
 
 .hero-item:first-child {
@@ -67,8 +69,6 @@ ul li:nth-child(n + 2) {
   margin-left: -12px;
 }
 
-.hero-item {
-}
 .hero-card {
 }
 
@@ -95,7 +95,6 @@ ul li:nth-child(n + 2) {
 
 .hero-reviews {
   display: flex;
-  width: 104px;
   align-items: center;
   gap: 12px;
 }
@@ -115,7 +114,6 @@ ul li:nth-child(n + 2) {
 }
 
 .hero-review-text {
-  /* width: 57px; */
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   line-height: 1.29;
@@ -140,10 +138,6 @@ ul li:nth-child(n + 2) {
 }
 
 @media screen and (min-width: 768px) {
-  /* .hero-section {
-    width: 704px;
-    height: 900px;
-  } */
   .container {
     max-width: 768px;
     padding-left: 32px;
@@ -153,7 +147,7 @@ ul li:nth-child(n + 2) {
   .hero-title {
     font-size: 60px;
     line-height: 1.07;
-    max-width: 517px;
+    max-width: 517px; /*check*/
   }
 
   .hero-title-span {
@@ -166,6 +160,17 @@ ul li:nth-child(n + 2) {
 
   .hero-students-reviews {
     width: 390px;
+    margin-bottom: 40px;
+  }
+
+  .hero-students {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  ul li:nth-child(n + 2) {
+    margin-left: -11px;
   }
 
   .hero-review-link {
@@ -191,15 +196,14 @@ ul li:nth-child(n + 2) {
 }
 
 @media screen and (min-width: 1280px) {
-  /* .hero-section {
-    width: 1080px;
-    height: 600px;
-  } */
-
   .container {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .hero-section {
+    display: inline-flex;
   }
 
   .hero-title {
@@ -216,10 +220,12 @@ ul li:nth-child(n + 2) {
     margin-bottom: 136px;
   }
 
-  .hero-review-link {
-  }
-
   .hero-students-reviews {
     width: 388px;
+  }
+
+  .hero-main-card-block {
+    display: flex;
+    align-items: flex-end;
   }
 }
