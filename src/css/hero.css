@@ -30,22 +30,48 @@
   letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
+
 .hero-students-reviews {
-  width: 253px;
+  max-width: 253px;
   display: inline-flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
   gap: 40px;
 }
+
+.hero-student {
+  display: inline-block;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .hero-list {
   display: inline-flex;
   width: 109px;
   height: 44px;
 }
+
+.hero-item:first-child {
+  z-index: 2;
+}
+
+.hero-item:nth-child(2) {
+  z-index: 1;
+}
+
+.hero-item:last-child {
+  z-index: 0;
+}
+
+ul li:nth-child(n + 2) {
+  margin-left: -12px;
+}
+
 .hero-item {
 }
 .hero-card {
 }
+
 .hero-review-link {
   display: block;
   width: 67px;
@@ -54,17 +80,26 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
 }
+
 .hero-arrow-icon {
   fill: #fff;
   width: 18px;
   height: 8.66px;
 }
+
+.hero-review-block {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .hero-reviews {
   display: flex;
   width: 104px;
   align-items: center;
   gap: 12px;
 }
+
 .hero-reviews-item {
   width: 44px;
   height: 44px;
@@ -74,9 +109,11 @@
   align-items: center;
   justify-content: center;
 }
+
 .hero-star-icon {
   fill: #121212;
 }
+
 .hero-review-text {
   /* width: 57px; */
   color: rgba(255, 255, 255, 0.5);
@@ -84,6 +121,7 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
 }
+
 .hero-review-count {
   color: #fff;
   font-size: 16px;
@@ -91,8 +129,16 @@
   line-height: 1.12;
   letter-spacing: -0.04em;
 }
-.hero-main-card {
+
+.hero-text-count {
+  display: block;
 }
+
+.hero-main-card {
+  display: block;
+  margin: auto;
+}
+
 @media screen and (min-width: 768px) {
   /* .hero-section {
     width: 704px;
