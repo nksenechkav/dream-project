@@ -108,28 +108,9 @@ ul li:nth-child(n + 2) {
   align-items: center;
   justify-content: center;
 }
-
-.hero-star-icon {
-  fill: #121212;
-}
-
-.hero-review-text {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.04em;
-}
-
-.hero-review-count {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: -0.04em;
-}
-
-.hero-text-count {
-  display: block;
+.hero-icon-star {
+  fill: #bea69e;
+  stroke: #121212;
 }
 
 .hero-main-card {
