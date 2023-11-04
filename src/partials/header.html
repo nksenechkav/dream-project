@@ -25,49 +25,75 @@
       </ul>
     </nav>
     <div class="header-buttons">
-      <button type="button" class="header-bigscreen-btn">Sign up</button>
+      
 
       <button type="button" class="header-btn-camera">
         <svg class="header-btn-camera-icon" width="16" height="16">
-          <use href="/img/icons.svg#icon-header_bi_camera-fill"></use>
+          <use href="/img/icons.svg#icon-camera-fill"></use>
         </svg>
       </button>
 
       <button type="button" class="header-open-btn">
         <svg class="header-open-btn-icon" width="32" height="22">
-          <use href="/img/icons.svg#icon-header-Nav"></use>
+          <use href="/img/icons.svg#icon-nav-button"></use>
         </svg>
       </button>
+
     </div>
+
   </div>
+  
+  <button type="button" class="header-bigscreen-btn">Sign up</button>
 
   <!--For is-open below-->
-  <div class="header-mob-menu">
-    <div>
-      <button type="button" class="header-mob-btn">
-        <svg class="mob-btn-icon" width="20" height="20">
-          <use href="/img/icons.svg#icon-header_x"></use>
+  <div class="header-backdrop">
+    <div class="header-mob-menu">
+      <button type="button" class="header-mob-close-btn">
+        <svg class="header-close-btn-icon">
+          <use href="/img/icons.svg#icon-close-button"></use>
         </svg>
       </button>
 
-      <ul class="mob-menu">
-        <li class="mob-menu-item">
-          <a class="mob-menu-item-link" href="">About us</a>
+      <ul class="header-mob-menu-list">
+        <li class="header-mob-menu-item">
+          <a class="header-mob-menu-item-link" href="">About us</a>
         </li>
-        <li class="mob-menu-item">
-          <a class="mob-menu-item-link" href="">Our courses</a>
+        <li class="header-mob-menu-item">
+          <a class="header-mob-menu-item-link" href="">Our courses</a>
         </li>
-        <li class="mob-menu-item">
-          <a class="mob-menu-item-link" href="">Our mentors</a>
+        <li class="header-mob-menu-item">
+          <a class="header-mob-menu-item-link" href="">Our mentors</a>
         </li>
-        <li class="mob-menu-item">
-          <a class="mob-menu-item-link" href="">Reviews</a>
+        <li class="header-mob-menu-item">
+          <a class="header-mob-menu-item-link" href="">Reviews</a>
         </li>
 
-        <li class="mob-menu-item">
-          <a class="mob-menu-item-link" href="">Contacts</a>
+        <li class="header-mob-menu-item">
+          <a class="header-mob-menu-item-link" href="">Contacts</a>
         </li>
       </ul>
+
+      <picture>
+        <source
+          srcset="
+            ./img/header/Rectangle-tablet-1x-opt.jpg 1x,
+            ./img/header/Rectangle-tablet-2x-opt.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/header/Rectangle-mob-1x-opt.jpg 1x,
+            ./img/header/Rectangle-mob-2x-opt.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="header-mob-menu-image"
+          src="./img/header/Rectangle-mob-1x-opt.jpg"
+          alt="camera's picture"
+        />
+      </picture>
     </div>
   </div>
 </header>
