@@ -1,21 +1,20 @@
 .mentors {
     padding-top: 80px;
-        padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
-.mentors-container {
-}
+.mentors-container {}
 
 .container {}
 
 .mentors-title {
     color: #FFF;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-        margin-bottom: 40px;
-        text-align-last: left;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+    text-align-last: left;
 }
 
 .mentors-title-span {
@@ -29,12 +28,11 @@
     align-items: center;
 }
 
-.mentors-item {
-}
+.mentors-item {}
 
 .mentors-img {
     border-radius: 200px;
-        margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .mentors-under-img-div {
@@ -45,18 +43,18 @@
 
 .mentors-subtitle {
     color: #FFF;
-        text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .mentors-text {
     color: rgba(255, 255, 255, 0.50);
-        text-align: center;
-        font-size: 12px;
-        line-height: 1.33;
-        letter-spacing: -0.02em;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
 }
 
 
@@ -68,27 +66,47 @@
         padding-right: 32px;
     }
 
-        .mentors-title {
-            font-size: 48px;
-            margin-bottom: 50px;
-        }
+    .mentors-title {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
 
-        .mentors-list {
-            flex-wrap: wrap;
-            gap: 93px 100px;
-            flex-direction: row;
-        }
+    .mentors-list {
+        flex-wrap: wrap;
+        gap: 93px 100px;
+        flex-direction: row;
+        justify-content: center;
+    }
 
-        .mentors-item {
-            flex-basis: calc((100%-100px)/2);
-        }
+    .mentors-item {
+        flex-basis: calc((100%-100px)/2);
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    .mentors-img {}
+
+    .mentors-subtitle {
+        font-size: 28px;
+    }
+
+    .mentors-text {
+        font-size: 14px;
+    }
 
 }
 
-    @media screen and (min-width: 1280px) {
-        .container {
-            max-width: 1280px;
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-    }      
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .mentors-item {
+        flex-basis: calc((100%-300px)/4);
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
