@@ -41,6 +41,46 @@
     padding: 28px;
     cursor: pointer;
     box-sizing: border-box;
+
+}
+
+.our-courses__item:hover {
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    border: 2px dashed #e7dbd84f;
+}
+
+.our-courses__item:not(:hover) {
+    animation: shadow-drop-2-center-reverse 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes shadow-drop-2-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-box-shadow: 0 0 0 0 #bea69e92;
+        box-shadow: 0 0 0 0 #bea69e92;
+    }
+
+    100% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px) scale(1.06);
+        -webkit-box-shadow: 0 0 15px 0px #ddcbc5a6;
+        box-shadow: 0 0 15px 0px #ddcbc5a6;
+    }
+}
+
+@keyframes shadow-drop-2-center-reverse {
+    0% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px) scale(1.06);
+        -webkit-box-shadow: 0 0 15px 0px #ddcbc5a6;
+        box-shadow: 0 0 15px 0px #ddcbc5a6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
 }
 
 .our-courses__card-upper {
