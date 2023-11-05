@@ -1,9 +1,12 @@
+
 .sign-up {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
 }
 
 .sign-up-modal {}
@@ -144,16 +147,20 @@
 
 
 @media screen and (min-width:768px) {
-
-    .sign-up{
+    .sign-up {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    .sign-up-container {
+        justify-content: start;
+        padding-left: 0;
+    }
+
     .container {
         max-width: 768px;
-        justify-content: start;
+
         padding-left: 32px;
-        padding-right: 32px;
     }
 
     .sign-up-modal {
@@ -190,15 +197,23 @@
 
 
 @media screen and (min-width:1280px) {
-.sign-up{
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
+    .sign-up {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 
     .container {
         max-width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .camera-list {
+        display: flex;
+    }
+
+    .sign-up-container {
+        gap: 60px;
     }
 }
 
@@ -207,7 +222,7 @@
 
 @media screen and (min-width:1440px) {
 
-    .sign-up {
+    .sign-up-container {
         gap: 200px;
     }
 
