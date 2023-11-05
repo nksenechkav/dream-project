@@ -2,7 +2,9 @@
   border-radius: 30px;
   padding-top: 40px;
   padding-bottom: 80px;
-  /* background-color: #1d1d1d; */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1d1d1d;
 }
 
 .hero-title {
@@ -65,7 +67,7 @@
   z-index: 0;
 }
 
-ul li:nth-child(n + 2) {
+.hero-list .hero-item:nth-child(n + 2) {
   margin-left: -12px;
 }
 
@@ -126,10 +128,15 @@ ul li:nth-child(n + 2) {
     padding-right: 32px;
   }
 
+  .hero-section {
+    padding-top: 64px;
+    padding-left: 32px;
+  }
+
   .hero-title {
     font-size: 60px;
     line-height: 1.07;
-    max-width: 517px; /*check*/
+    max-width: 517px;
   }
 
   .hero-title-span {
@@ -151,7 +158,7 @@ ul li:nth-child(n + 2) {
     gap: 12px;
   }
 
-  ul li:nth-child(n + 2) {
+  .hero-list .hero-item:nth-child(n + 2) {
     margin-left: -11px;
   }
 
@@ -186,6 +193,13 @@ ul li:nth-child(n + 2) {
 
   .hero-section {
     display: inline-flex;
+    padding-left: 50px;
+    padding-top: 80px;
+  }
+
+  .hero-section > .container {
+    max-width: 1080px;
+    justify-content: center;
   }
 
   .hero-title {
@@ -204,6 +218,10 @@ ul li:nth-child(n + 2) {
 
   .hero-students-reviews {
     width: 388px;
+  }
+
+  .hero-list .hero-item:nth-child(n + 2) {
+    margin-left: -14px;
   }
 
   .hero-main-card-block {
