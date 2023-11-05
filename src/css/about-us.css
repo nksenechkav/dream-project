@@ -9,12 +9,11 @@
 }
 .abus-title {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
 .abus-span {
@@ -23,8 +22,8 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 .abtus-img {
@@ -38,13 +37,16 @@
 }
 
 .sec-abtus-txt {
-  color: var(--white, #fff);
+  color: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.abtus-cont-p {
+  width: 335px;
 }
 
 /* !!!!!!!!!!!!!!!tablet!!!!!!!!!!!!!!!!! */
@@ -64,22 +66,20 @@
   }
   .abus-title {
     color: #fff;
-    font-family: DM Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
     margin-bottom: 50px;
   }
   .abus-span {
     color: #bea69e;
-    font-family: DM Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
   }
   .section-abtus {
     width: 704px;
@@ -93,13 +93,13 @@
   }
 
   .sec-abtus-txt {
-    color: var(--white, #fff);
-    font-family: DM Sans;
+    color: #fff;
+    /* font-family: DM Sans; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
   }
   .sec-abtus-cont-ul {
     display: flex;
@@ -128,33 +128,32 @@
   }
   .abus-title {
     color: #fff;
-    font-family: DM Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 54px; /* 112.5% */
-    letter-spacing: -1.92px;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -0.04em;
   }
   .abus-span {
     color: #bea69e;
-    font-family: DM Sans;
+
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
   }
   .sec-abtus-txt {
-    color: var(--white, #fff);
-    font-family: DM Sans;
+    color: #fff;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
   }
   .sec-abtus-cont-ul {
-    gap: 20px;
+    gap: 40px;
     flex-direction: row;
   }
   .abtus-sec-cont {
@@ -162,5 +161,8 @@
     flex-direction: row;
     gap: 40px;
     align-items: center;
+  }
+  .abtus-cont-p {
+    width: 268px;
   }
 }
