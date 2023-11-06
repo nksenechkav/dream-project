@@ -1,8 +1,11 @@
 /* @media screen and (min-width: 375px) { */
+* {
+  box-sizing: border-box;
+}
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
   /* margin-right: auto;
   margin-left: auto; */
 }
@@ -61,11 +64,7 @@
   width: 32px;
   height: 22px;
 }
-/* .header-container-plus-a {
- 
-  margin-right: auto;
-  margin-left: auto;
-} */
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -77,13 +76,6 @@
   /* width: 335px; */
   flex-shrink: 0;
 }
-/* 
-@media screen and (max-width: 767px) {
-  .header-container {
-    padding-left: 20px;
-    padding-right: 14px;
-  }
-} */
 
 .header-buttons {
   display: flex;
@@ -188,7 +180,6 @@
 @media screen and (min-width: 768px) {
   .header {
     padding-bottom: 40px;
-    
   }
   .container {
     max-width: 768px;
@@ -198,30 +189,23 @@
 
   .header-container-plus-a {
     display: flex;
-    /* margin-left: auto;
-    margin-right: auto; */
+
     gap: 14px;
-    /* justify-content: flex-start; */
+
     align-items: center;
-    /* width: 768px; */
   }
-  /* @media screen and (max-width: 1279px) { */
+
   .header-container {
     padding-right: 20px;
-    /* padding-left: 20px; */
 
-    /* margin-right: 14px; */
     width: 504px;
   }
-  /* } */
 
   .header-logo {
     padding-top: 22px;
     padding-bottom: 22px;
   }
-  /* .header-buttons {
-    
-  } */
+
   .header-btn-camera {
     display: none;
   }
@@ -234,35 +218,10 @@
     width: 40px;
     height: 28px;
   }
-  /* .header-bigscreen-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    margin: 0;
-    
-
-    font-size: 18px;
-
-    font-weight: 700;
-    line-height: 1.56;
-    text-transform: uppercase;
-    border-radius: 12px;
-    background-color: #fff;
-    /* margin-right: auto; */
-  /* padding: 16px 58px;
-
-    flex-shrink: 0;
-
-  }  */
   .header-bigscreen-a {
     display: block;
-    /* box-sizing: border-box; */
-    /* display: inline; */
-    /* justify-content: center;
-    align-items: center; */
 
-    /* margin: 0; */
     color: #121212;
 
     font-size: 18px;
@@ -305,7 +264,6 @@
 @media screen and (min-width: 1280px) {
   .header {
     padding-bottom: 80px;
-    
   }
   .container {
     max-width: 1280px;
@@ -321,9 +279,7 @@
   .header-container-plus-a {
     gap: 20px;
   }
-  /* .header-menu-div {
-    display: flex;
-  } */
+
   .header-menu {
     display: flex;
     gap: 28px;
@@ -398,4 +354,5 @@ line-height: normal; */
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 1;
 }
