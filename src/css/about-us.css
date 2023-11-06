@@ -1,5 +1,5 @@
 .section-abtus {
-  width: 335px;
+  /* width: 335px; */
   padding-top: 80px;
 }
 .abtus-sec-cont {
@@ -82,7 +82,7 @@
     letter-spacing: -0.04em;
   }
   .section-abtus {
-    width: 704px;
+    /* width: 704px; */
     padding-top: 100px;
   }
   .abtus-sec-cont {
@@ -108,7 +108,7 @@
   }
 }
 /*!!!!!!!!!!!!!desktop!!!!!!!!!!!!!!*/
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
   .container {
     max-width: 1280px;
     padding-left: 100px;
@@ -118,7 +118,7 @@
     width: 268px;
   }
   .section-abtus {
-    width: 1080px;
+    /* width: 1080px; */
     padding-top: 150px;
   }
   .abtus-img {
@@ -164,5 +164,63 @@
   }
   .abtus-cont-p {
     width: 268px;
+  }
+}
+/* !!!!!!!!!!!!!!!!desk1440px!!!!!!!!!!!!! */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .abtus-cont-p {
+    width: 314px;
+  }
+  .section-abtus {
+    /* width: 1080px; */
+    padding-top: 150px;
+  }
+  .abtus-img {
+    border-radius: 1000px;
+    width: 100%;
+    display: block;
+  }
+  .abus-title {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -0.04em;
+  }
+  .abus-span {
+    color: #bea69e;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+  }
+  .sec-abtus-txt {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    width: 314px;
+  }
+  .sec-abtus-cont-ul {
+    gap: 40px;
+    flex-direction: row;
+  }
+  .abtus-sec-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+  }
+  .txt-one {
+    width: 276px;
   }
 }
