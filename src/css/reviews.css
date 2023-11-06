@@ -7,7 +7,6 @@
 
 .title-reviews {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -18,6 +17,7 @@
 
 .wrap-reviews-item {
   padding-bottom: 80px;
+  max-width: 295px;
 }
 
 .reviews-list {
@@ -40,7 +40,6 @@
 
 .name-client {
   color: #fff;
-  font-family: DM Sans;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -48,7 +47,6 @@
 
 .client-status {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -71,7 +69,6 @@
 
 .reviews-descr {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.02em;
@@ -103,6 +100,7 @@
 
   .wrap-reviews-item {
     padding-bottom: 100px;
+    max-width: 640px;
   }
 
   .reviews-list {
@@ -137,7 +135,7 @@
 
 @media screen and (min-width: 1280px) {
   .conteiner {
-    max-width: 1280px;
+    width: 1080px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -157,7 +155,7 @@
     gap: 20px;
   }
   .reviews-list {
-    width: 530px;
+    width: calc((100% - 20px) / 2);
   }
 
   .name-client {
