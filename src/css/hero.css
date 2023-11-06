@@ -1,4 +1,5 @@
 .hero-section {
+  width: 335px;
   border-radius: 30px;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -144,6 +145,7 @@
   }
 
   .hero-section {
+    width: 704px;
     padding-top: 64px;
     padding-left: 32px;
   }
@@ -207,6 +209,7 @@
   }
 
   .hero-section {
+    width: 1080px;
     display: flex;
     padding-left: 50px;
     padding-top: 80px;
