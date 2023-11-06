@@ -1,8 +1,10 @@
+.hero {
+  padding-bottom: 80px;
+}
 .hero-section {
   width: 335px;
   border-radius: 30px;
   padding-top: 40px;
-  padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #1d1d1d;
@@ -144,6 +146,10 @@
     padding-right: 32px;
   }
 
+  .hero {
+    padding-bottom: 100px;
+  }
+
   .hero-section {
     width: 704px;
     padding-top: 64px;
@@ -199,6 +205,10 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .hero-main-card {
+    width: 393px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -206,6 +216,10 @@
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .hero {
+    padding-bottom: 150px;
   }
 
   .hero-section {
@@ -240,6 +254,10 @@
 
   .hero-list .hero-item:nth-child(n + 2) {
     margin-left: -14px;
+  }
+
+  .hero-main-card {
+    width: 397px;
   }
 
   .hero-main-card-block {
