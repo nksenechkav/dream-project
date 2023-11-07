@@ -126,10 +126,11 @@
 
 @media screen and (min-width: 1280px) {
   .conteiner {
-    width: 1080px;
+    width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
-    ma
+    margin: 0 auto;
+    padding-bottom: 150px;
   }
 
   .title-reviews {
@@ -139,15 +140,16 @@
   }
 
   .wrap-reviews-item {
-    padding-bottom: 150px;
     position: relative;
   }
   .reviews-item {
     display: flex;
     gap: 20px;
+    width: 1240px;
   }
+
   .reviews-list {
-    width: calc((100% - 20px) / 2);
+    width: 610px;
   }
 
   .name-client {
@@ -159,7 +161,7 @@
   }
 
   .reviews-descr {
-    width: 490px;
+    width: 570px;
     line-height: 1.25;
     padding-bottom: 40px;
     padding-right: 0;
