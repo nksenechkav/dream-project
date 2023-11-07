@@ -146,11 +146,11 @@
   .reviews-item {
     display: flex;
     gap: 20px;
-    width: 1240px;
+    width: 1080px;
   }
 
   .reviews-list {
-    width: 610px;
+    width: 530px;
   }
 
   .name-client {
@@ -162,10 +162,10 @@
   }
 
   .reviews-descr {
-    width: 570px;
+    width: 490px;
     line-height: 1.25;
-    padding-bottom: 40px;
-    padding-right: 0;
+    margin-bottom: 40px;
+    margin-right: 0;
   }
 
   .reviews-list-two {
