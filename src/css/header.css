@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 375px) { */
+
 * {
   box-sizing: border-box;
 }
@@ -6,8 +6,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  /* margin-right: auto;
-  margin-left: auto; */
 }
 .header-menu {
   display: none;
@@ -41,6 +39,8 @@
 }
 .header-btn-camera-icon {
   fill: rgba(190, 166, 158, 0.4);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 .header-btn-camera:hover .header-btn-camera-icon {
   fill: rgba(190, 166, 158, 1);
@@ -83,19 +83,7 @@
   justify-content: center;
   align-items: center;
 }
-.header-backdrop {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(18, 18, 18, 0.4);
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
+
 
 .header-close-btn {
   padding: 0;
@@ -175,7 +163,7 @@
   /* height: ; */
 }
 
-/* } */
+
 
 @media screen and (min-width: 768px) {
   .header {
@@ -235,6 +223,8 @@
     padding: 16px 58px;
 
     flex-shrink: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-bigscreen-a:hover,
@@ -288,7 +278,7 @@
     /* padding: 0;
     margin: 0; */
   }
-  /* @media screen and (max-width: 1439px) { */
+  
   .header-container {
     width: 822px;
     /* display: flex; */
@@ -299,18 +289,15 @@
     margin-left: auto;
     margin-right: auto;
 
-    /* margin-right: 20px; */
+    
   }
-  /* } */
+  
   .header-navigation {
-    /* width: 722px; */
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-right: 50;
-    padding-left: 50; */
-    /* margin-left: auto;
-    margin-right: auto; */
+    
   }
   .header-bigscreen-a {
     padding: 16px 84px;
@@ -320,17 +307,15 @@
   }
   .header-menu-item-link {
     display: block;
-    /* color: #FFF; */
-    /* font-family: DM Sans; */
+    
     font-size: 14px;
-    /* font-style: normal;
-font-weight: 400;
-line-height: normal; */
+    
     text-transform: uppercase;
     flex-shrink: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header-menu-item-firstlink:hover,
-  .header-menu-item-firstlink:focus {
+  .header-menu-item-link:hover,
+  .header-menu-item-link:focus {
     color: rgba(190, 166, 158, 1);
   }
 }
@@ -342,8 +327,7 @@ line-height: normal; */
 
   .header-container {
     width: 982px;
-    padding-right: 50;
-    padding-left: 50;
+    
   }
   .header-menu {
     gap: 40px;
