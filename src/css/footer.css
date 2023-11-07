@@ -15,7 +15,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .footer-container {
+  .footer {
     background-image: url(/img/graphic-wrap/Graphic-mobile-2x.png);
   }
 }
@@ -178,12 +178,14 @@
   .footer {
     background-image: url(/img/graphic-wrap/Graphic-tablet-1x.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
   }
+  
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .footer-container {
+    .footer {
       background-image: url(/img/graphic-wrap/Graphic-tablet-2x.png);
     }
   }
@@ -193,16 +195,21 @@
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .footer-container {
     padding-top: 50px;
     padding-bottom: 25px;
   }
   .footer {
     background-image: url(/img/graphic-wrap/Graphic-desktop-1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .footer-container {
+    .footer {
       background-image: url(/img/graphic-wrap/Graphic-desktop-2x.png);
     }
   }
