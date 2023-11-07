@@ -151,7 +151,7 @@
   }
 
   .hero-section {
-    width: 704px;
+    max-width: 704px;
     padding-top: 64px;
     padding-left: 32px;
   }
