@@ -226,13 +226,13 @@
     }
 
         .container {
-            mаx-width: 1440px;
+            max-width: 1440px;
             padding-left: 100px;
             padding-right: 100px;
         }
 
     .lens-img {
-        transform: translateX(0);
+        transform: translateX(-20%);
     }
 
 }
