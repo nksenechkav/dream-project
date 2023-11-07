@@ -1,7 +1,15 @@
 .footer a:hover,
-footer a:focus {
+.footer a:focus {
   color: rgba(190, 166, 158, 1);
   background-color: rgba(29, 29, 29, 1);
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 250, 0.2);
+  background-image: url(/img/graphic-wrap/Graphic-mobile-1x.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -11,12 +19,10 @@ footer a:focus {
 }
 
 .footer-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  border-top: 1px solid rgba(255, 255, 250, 0.2);
-  background-image: url(/img/graphic-wrap/Graphic-mobile-1x.png);
-  background-size: cover;
-  background-position: center;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -149,12 +155,10 @@ footer a:focus {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-container {
-    width: 768px;
-    padding-top: 50px;
+  .container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 25px;
   }
   .footer-logo {
     padding-top: 0;
@@ -176,6 +180,9 @@ footer a:focus {
     justify-content: space-between;
   }
   .footer-container {
+    padding-bottom: 25px;
+  }
+  .footer {
     background-image: url(/img/graphic-wrap/Graphic-tablet-1x.png);
     background-size: cover;
     background-position: center;
@@ -187,15 +194,16 @@ footer a:focus {
       background-image: url(/img/graphic-wrap/Graphic-tablet-2x.png);
     }
   }
-  .footer {
-    padding-top: 50px;
-  }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .footer {
     background-image: url(/img/graphic-wrap/Graphic-desktop-1x.png);
   }
   @media (min-device-pixel-ratio: 2),
