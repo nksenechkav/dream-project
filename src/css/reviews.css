@@ -76,7 +76,7 @@
 /* ===========TABLET VERSION========= */
 
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -125,7 +125,7 @@
 /* ===========DESCTOP VERSION========= */
 
 @media screen and (min-width: 1280px) {
-  .conteiner {
+  .container {
     width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
