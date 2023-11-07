@@ -2,7 +2,7 @@
   padding-bottom: 80px;
 }
 .hero-section {
-  width: 335px;
+  max-width: 335px;
   border-radius: 30px;
   padding-top: 40px;
   padding-left: 20px;
