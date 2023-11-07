@@ -85,7 +85,7 @@
     }
 
     .mentors-item {
-        flex-basis: calc((100%-100px)/2);
+        width: calc((100% - 100px) / 2);
         padding-right: 7px;
         padding-left: 7px;
     }
@@ -115,7 +115,7 @@
     }
 
     .mentors-item {
-        flex-basis: calc((100%-300px)/4);
+        width: calc((100% - 300px) / 4);
         padding-right: 0;
         padding-left: 0;
     }
