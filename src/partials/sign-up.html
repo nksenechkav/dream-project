@@ -6,11 +6,11 @@
             <form class="sign-up-modal-form">
                 <div class="sign-up-modal-form-field">
                     <input type="text" name="user-name" class="sign-up-form-input" id="user-name"
-                        placeholder="Enter your name" />
+                        placeholder="Enter your name" pattern="[A-Za-z]+" required/>
                 </div>
                 <div class="sign-up-modal-form-field">
                     <input type="email" name="user-email" class="sign-up-form-input" id="user-email"
-                        placeholder="Enter your email" />
+                        placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required/>
                 </div>
                 <div class="sign-up-form-coment-container">
                     <textarea name="user-comment" class="sign-up-modal-form-textarea" id="user-comment"

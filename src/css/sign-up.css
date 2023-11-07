@@ -159,8 +159,8 @@
 
     .container {
         max-width: 768px;
-
         padding-left: 32px;
+        padding-right: 32px;
     }
 
     .sign-up-modal {
@@ -225,10 +225,11 @@
         gap: 200px;
     }
 
-    .container {
-        min-width: 1240px;
-        padding: 0;
-    }
+        .container {
+            mаx-width: 1440px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
 
     .lens-img {
         transform: translateX(0);
