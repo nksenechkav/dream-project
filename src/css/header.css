@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -112,7 +110,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 218px;
-  height: 100vh;
+  height: 100%;
   background-color: #bea69e;
   position: absolute;
   top: 0;
