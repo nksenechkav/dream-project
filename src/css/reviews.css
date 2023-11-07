@@ -126,16 +126,18 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 120px;
     padding-left: 100px;
     padding-right: 100px;
-    margin: 0 auto;
+  }
+
+  .reviews-wraper {
+    max-width: 1080px;
   }
 
   .title-reviews {
     font-size: 48px;
     line-height: 1.13;
-    padding-top: 150px;
   }
 
   .wrap-reviews-item {
