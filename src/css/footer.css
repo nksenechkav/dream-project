@@ -1,10 +1,17 @@
-.footer {
-  padding-bottom: 20px;
+.footer a:hover,
+footer a:focus {
+  color: rgba(190, 166, 158, 1);
+  background-color: rgba(29, 29, 29, 1);
+}
+
+.container {
+  max-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .footer-container {
   padding-left: 20px;
-  padding-top: 40px;
   padding-right: 20px;
   border-top: 1px solid rgba(255, 255, 250, 0.2);
   background-image: url(/img/graphic-wrap/Graphic-mobile-1x.png);
@@ -184,11 +191,9 @@
     padding-top: 50px;
   }
 }
-
 @media screen and (min-width: 1280px) {
-  .footer-container {
+  .container {
     max-width: 1280px;
-    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
     background-image: url(/img/graphic-wrap/Graphic-desktop-1x.png);
