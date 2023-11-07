@@ -12,24 +12,17 @@
   background-repeat: no-repeat;
 }
 
-.container {
-  max-width: 768px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.footer-container {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .footer-container {
     background-image: url(/img/graphic-wrap/Graphic-mobile-2x.png);
   }
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .footer-logo {
