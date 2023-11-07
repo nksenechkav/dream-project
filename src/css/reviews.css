@@ -76,7 +76,7 @@
 /* ===========TABLET VERSION========= */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .conteiner {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -91,9 +91,7 @@
 
   .wrap-reviews-item {
     padding-bottom: 100px;
-
-    display: flex;
-    justify-content: center;
+    max-width: 640px;
   }
 
   .reviews-list {
@@ -127,36 +125,29 @@
 /* ===========DESCTOP VERSION========= */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1080px;
+  .conteiner {
+    width: 1080px;
     padding-left: 100px;
     padding-right: 100px;
-    margin: 0 auto;
+    ma
   }
 
   .title-reviews {
     font-size: 48px;
     line-height: 1.13;
-    max-width: 171px;
-  }
-
-  .reviews-wraper {
-    justify-content: flex-start;
+    padding-top: 150px;
   }
 
   .wrap-reviews-item {
+    padding-bottom: 150px;
     position: relative;
-    display: flex;
-    margin-left: auto;
   }
-
   .reviews-item {
     display: flex;
     gap: 20px;
   }
-
   .reviews-list {
-    width: 530px;
+    width: calc((100% - 20px) / 2);
   }
 
   .name-client {
