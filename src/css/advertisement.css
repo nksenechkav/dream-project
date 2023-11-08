@@ -19,6 +19,8 @@
 
 .marquee__inner {
     display: flex;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .marquee__line {
