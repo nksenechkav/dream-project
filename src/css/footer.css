@@ -102,16 +102,7 @@
   line-height: 1.25;
 }
 
-/* .text1 {
-  position: relative;
-  left: 0;
-  bottom: 0;
-}
-.text2 {
-  position: relative;
-  right: 0;
-  bottom: 0; */
-/* } */
+
 .footer-online {
   display: flex;
   gap: 40px;
@@ -142,13 +133,14 @@
   margin-bottom: 40px;
 }
 .com-info {
-  justify-content: space-between;
+  gap: 72px;
   display: flex;
 }
-
-.copyright {
-  font-weight: bold;
-  color: #333;
+.footer-text right {
+  width: 147px;
+}
+.footer-text left {
+  width: 116px;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,6 +184,15 @@
     .footer {
       background-image: url(/img/graphic-wrap/Graphic-tablet-2x.png);
     }
+  }
+  .com-info {
+    justify-content: space-between;
+  }
+  .footer-text right {
+    width: 171px;
+  }
+  .footer-text left {
+    width: 134px;
   }
 }
 @media screen and (min-width: 1280px) {
