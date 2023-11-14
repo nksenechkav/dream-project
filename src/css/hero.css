@@ -2,7 +2,7 @@
   padding-bottom: 80px;
 }
 .hero-section {
-  max-width: 335px;
+  width: 335px;
   border-radius: 30px;
   padding-top: 40px;
   padding-left: 20px;
@@ -140,12 +140,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .hero {
     padding-bottom: 100px;
   }
@@ -212,12 +206,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
   .hero {
     padding-bottom: 150px;
   }
@@ -227,10 +215,6 @@
     display: flex;
     padding-left: 50px;
     padding-top: 80px;
-  }
-
-  .hero-section > .container {
-    max-width: 1080px;
     justify-content: center;
   }
 

@@ -4,7 +4,6 @@
 
 .mentors-container {}
 
-.container {}
 
 .mentors-title {
     color: #FFF;
@@ -59,12 +58,6 @@
 
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
         .mentors {
             padding-top: 100px;
         }
@@ -85,8 +78,8 @@
     .mentors-item {
         width: calc((100% - 100px) / 2);
         display: flex;
-            flex-direction: column;
-            align-items: center;
+        flex-direction: column;
+        align-items: center;
         padding-right: 7px;
         padding-left: 7px;
     }
@@ -104,12 +97,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
     .mentors {
     padding-top: 150px;
     }

@@ -37,12 +37,7 @@
 }
 
 /* !!!!!!!!!!!!!!!tablet!!!!!!!!!!!!!!!!! */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+@media screen and (min-width: 768px) {
   .abtus-img {
     border-radius: 1000px;
     flex-basis: 100%;
@@ -81,12 +76,7 @@
   
 }
 /*!!!!!!!!!!!!!desktop!!!!!!!!!!!!!!*/
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+@media screen and (min-width: 1280px) {
   .section-abtus {
     padding-top: 150px;
   }
@@ -118,12 +108,7 @@
   }
 }
 /* !!!!!!!!!!!!!!!!desk1440px!!!!!!!!!!!!! */
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+/* @media screen and (min-width: 1440px) {
   .section-abtus {
     padding-top: 150px;
   }
@@ -158,4 +143,4 @@
   .seconds {
     min-width: 276px;
   }
-}
+} */

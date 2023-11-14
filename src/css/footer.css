@@ -30,7 +30,6 @@
   padding-top: 0;
   padding-bottom: 15px;
   border: none;
-  /* justify-content: center; */
   align-items: center;
 }
 .footer-logo-icon {
@@ -144,11 +143,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .footer-logo {
     padding-top: 0;
     padding-bottom: 25px;
@@ -160,7 +154,6 @@
 
   .footer-online {
     gap: 25px;
-    /* margin-bottom: 75px; */
   }
   .tab-poss {
     display: flex;
@@ -196,11 +189,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
   .footer-container {
     padding-top: 50px;
     padding-bottom: 25px;
