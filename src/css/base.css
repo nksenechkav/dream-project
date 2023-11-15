@@ -84,7 +84,7 @@ body {
 }
 
 
-/* @media screen and (min-width: 1440px) {
+ @media screen and (min-width: 1440px) {
   .graphic-wrap {
     background-image: url(/img/graphic-wrap/Graphic-1440-1x.png);
   }
@@ -103,4 +103,4 @@ body {
     padding-right: 100px;
     margin: 0 auto;
   }
-} */
+}

@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-size: 14px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -49,10 +50,9 @@
 }
 .footer-text {
   color: #fff;
-  font-size: 12px; /* font-size: 28px;*/
-  font-style: normal;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 16px; /*  line-height: 1.28% */
+  line-height: 16px; 
 }
 .footer-soc-list {
   display: flex;
@@ -65,9 +65,7 @@
 .texta {
   color: #fff;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
 }
 .footer-soc-link {
@@ -96,7 +94,6 @@
 .footer-input::placeholder {
   color: #121212;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.25;
 }
@@ -117,7 +114,6 @@
   color: #fff;
   text-align: center;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   padding: 18px 16px;
@@ -217,17 +213,35 @@
     margin-bottom: 50px;
   }
   .tab-poss {
-    gap: 135px;
     justify-content: space-between;
   }
   .footer-btn {
-    margin-left: 8px;
+    margin-left: 16px;
   }
   .first-comp {
     margin-right: 150px;
-  }
+  } 
   .footer-input {
     max-width: 216px;
     height: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-image: url(/img/graphic-wrap/Graphic-1440-1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(/img/graphic-wrap/Graphic-1440-2x.png);
+    }
+  }
+  
+  .footer-online {
+    gap: 100px;
   }
 }

@@ -275,9 +275,9 @@
   }
 }
 
-/* @media screen and (min-width: 1440px) {
+ @media screen and (min-width: 1440px) {
   .header-container {
-    
+    width: 982px;
   }
   .header-menu {
     gap: 40px;
@@ -289,4 +289,4 @@
   visibility: visible;
   pointer-events: auto;
   z-index: 1;
-} */
+}

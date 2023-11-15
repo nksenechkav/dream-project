@@ -108,7 +108,7 @@
   }
 }
 /* !!!!!!!!!!!!!!!!desk1440px!!!!!!!!!!!!! */
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .section-abtus {
     padding-top: 150px;
   }
@@ -143,4 +143,4 @@
   .seconds {
     min-width: 276px;
   }
-} */
+}

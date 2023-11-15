@@ -213,7 +213,6 @@
   .hero-section {
     width: 1080px;
     display: flex;
-    padding-left: 50px;
     padding-top: 80px;
     justify-content: center;
   }
@@ -248,4 +247,15 @@
     display: flex;
     align-items: flex-end;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    width: 1240px;
+    gap: 130px;
+    padding-left: 50px;
+    padding-right: 100px;
+    justify-content: flex-start;
+  }
+  
 }

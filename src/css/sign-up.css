@@ -197,14 +197,22 @@
     }
 }
 
-/* @media screen and (min-width:1440px) {
-
+@media screen and (min-width:1440px) {
     .sign-up-container {
         gap: 200px;
     }
 
-    .lens-img {
-        transform: translateX(-20%);
+    .camera {
+        width: 350px;
+    }
+    
+    .lens {
+        width: 190px;
+    
     }
 
-} */
+    .lens-img {
+        transform: translateX(10%);
+    }
+
+}

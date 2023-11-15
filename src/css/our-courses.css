@@ -219,3 +219,17 @@
         width: 283px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .our-courses__title-box {
+        max-width: 1240px;
+    }
+
+    .our-courses__text {
+        width: 565px;
+    }
+
+    .our-courses__card-text-subtitle {
+        width: 336px;
+    }
+}
